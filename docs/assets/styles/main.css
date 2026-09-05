@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1d1d1f;
+    background-color: #f1f5f2;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 50rem;
+    border-radius: 0.625rem;
+    padding: 1rem;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
