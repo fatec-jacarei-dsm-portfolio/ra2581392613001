@@ -10,10 +10,61 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 0;
     min-height: 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1d1d1f;
     background-color: #f1f5f2;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ccc;
+}
+
+img {
+    border-style: groove;
+    border-width: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 999px;
+    padding: 1rem;
+}
+
+a:hover {
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #1d1d1f;
+}
+
+.navbar * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    width: 50rem;
 }
 
 .card {
@@ -25,14 +76,48 @@ body {
     width: 50rem;
     border-radius: 0.625rem;
     padding: 1rem;
-    gap: 1rem;
+    gap: 0rem;
     margin: 1rem;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-by-side a + a {
+    margin-left: 2rem;
+}
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contact {
     display: flex;
     flex-direction: row;
-    flex: 1;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 40rem;
 }
