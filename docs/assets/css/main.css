@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* TAGS */
+
 body {
     display: flex;
     flex-direction: column;
@@ -28,23 +30,6 @@ header {
     background-color: #ccc;
 }
 
-img {
-    border-style: groove;
-    border-width: 10px;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-    border: 3px solid black;
-    border-radius: 999px;
-    padding: 1rem;
-}
-
-a:hover {
-    box-shadow: 10px 10px 5px #aaaaaa;
-}
-
 footer {
     display: flex;
     flex-direction: column;
@@ -56,6 +41,8 @@ footer {
     border-top: 1px solid #1d1d1f;
 }
 
+/* NAVBAR */
+
 .navbar * {
     display: flex;
     flex-direction: row;
@@ -66,6 +53,22 @@ footer {
 .nav-links {
     width: 50rem;
 }
+
+/* BUTTONS */
+
+.button {
+    color: inherit;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 999px;
+    padding: 1rem;
+}
+
+.button:hover {
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* CARDS */
 
 .card {
     display: flex;
@@ -80,6 +83,8 @@ footer {
     margin: 1rem;
 }
 
+/* PRESENTATION */
+
 .presentation {
     display: flex;
     flex-direction: row;
@@ -88,6 +93,13 @@ footer {
     gap: 1rem;
     padding: 1rem;
 }
+
+.avatar {
+    border-style: groove;
+    border-width: 10px;
+}
+
+/* PROJECTS */
 
 .project {
     display: flex;
@@ -107,12 +119,16 @@ footer {
     margin-left: 2rem;
 }
 
+/* COMP-INFO */
+
 .courses {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+/* CONTACT */
 
 .contact {
     display: flex;
