@@ -89,32 +89,6 @@ header {
     margin: 1rem;
 }
 
-.card-child {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f1f5f2;
-    width: 49rem;
-    border-radius: 0.625rem;
-    padding: 0.625rem;
-    gap: 0rem;
-    margin: 1rem;
-}
-
-.card-grandchild{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    width: 48rem;
-    border-radius: 0.625rem;
-    padding: 0.625rem;
-    gap: 0.625rem;
-    margin: 1rem;
-}
-
 /* PRESENTATION */
 
 .presentation {
@@ -150,15 +124,54 @@ header {
     align-items: center;
 }
 
+.card-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f5f2;
+    width: 49rem;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    gap: 0rem;
+    margin: 1rem;
+}
+
+.card-grandchild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 48rem;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    gap: 0.625rem;
+    margin: 1rem;
+}
+
+.card-grandchild h4 {
+    text-align: center;
+    padding: 0.625rem;
+}
+
 .side-by-side {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
+    gap: 0;
+    padding: 0;
 }
 
-.side-by-side a + a {
-    margin-left: 2rem;
+.line-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
 }
 
 /* COMP-INFO */
@@ -212,4 +225,3 @@ footer {
     margin: 0;
     border-top: 1px solid #1d1d1f;
 }
-
