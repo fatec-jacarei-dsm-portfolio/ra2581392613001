@@ -130,7 +130,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #f1f5f2;
-    width: 49rem;
+    width: 95%;
     border-radius: 0.625rem;
     padding: 0.625rem;
     gap: 0rem;
@@ -143,7 +143,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    width: 48rem;
+    width: 90%;
     border-radius: 0.625rem;
     padding: 0.625rem;
     gap: 0.625rem;
@@ -228,31 +228,30 @@ footer {
 
 @media (max-width: 1111px) {
     header {
-        rotate: -90deg;
-    }
-
-    .nav-links {
-        flex-direction: row-reverse;
-        gap: 0.625rem;
-    }
-}
-
-@media (max-width: 970px) {
-    header {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         position: fixed;
         height: fit-content;
         width: 100%;
-        max-width: 100%;
         rotate: 0deg;
         background-color: #f1f5f2;
     }
 
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
     .nav-links {
+        display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
     }
 
     .main-body * :not(.button) {
@@ -263,15 +262,11 @@ footer {
         width: 100%;
     }
 
-    .card-child {
-        width: 95%;
+    .presentation {
+        flex-direction: column;
     }
 
-    .card-grandchild {
-        width: 90%;
-    }
-
-    img {
+    .avatar {
         width: 100%;
     }
 
